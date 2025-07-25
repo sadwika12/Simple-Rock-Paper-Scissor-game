@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Rock-Paper-Scissor</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="Style.css">
+    </head>
+    <body>
+        <h1>Rock-Paper-Scissor</h1>
+        <div class="button-images">
+            <div class="child">
+                <button onclick="playgame('Rock');" id="rock"><img src="images/newrock.jpg" alt="Rock"></button>
+                <button onclick="playgame('Paper');" id="paper"><img src="images/newpaper.jpg" alt="Paper"></button>
+                <button onclick="playgame('Scissor');" id="scissors"><img src="images/newscissors.jpg" alt="Scissor"></button>
+            </div>
+            <p class="text-below-image">Click!Your Choice</p>
+            <div class="details">
+                <p class="choice"></p>
+                <p class="result"></p>
+                <p class="score"></p>
+                <button onclick="resetscore()" class="reset-btn">Reset Score</button>
+            </div>
+        </div>
+        <script src="Script.js"></script>
+    </body>
+</html>
